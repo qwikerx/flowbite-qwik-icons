@@ -1,4 +1,4 @@
-# Flowbite Qwik Icons
+# Flowbite Qwik Icon components
 
 Include popular Flowbite icons easily in your Qwik projects with `flowbite-qwik-icons` 🚀
 
