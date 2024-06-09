@@ -1,8 +1,23 @@
-# Flowbite Qwik Icon components
+<div style="text-align: center">
+  <h1>Flowbite Qwik Icon Components</h1>
 
-Include popular Flowbite icons easily in your Qwik projects with `flowbite-qwik-icons` 🚀
+  <p>
+    Include popular Flowbite icons easily in your Qwik projects with `flowbite-qwik-icons` 🚀
+  </p>
+  <p>
+    <a href="https://www.npmjs.com/package/flowbite-qwik-icons">
+      <img src="https://img.shields.io/npm/dt/flowbite-qwik-icons.svg" alt="Total Downloads">
+    </a>
+    <a href="https://badge.fury.io/js/flowbite-qwik-icons">
+      <img alt="Latest release" src="https://badge.fury.io/js/flowbite-qwik-icons.svg">
+    </a>
+    <a href="https://flowbite.com/getting-started/license/">
+      <img src="https://img.shields.io/badge/license-MIT-blue" alt="License">
+    </a>
+  </p>
+</div>
 
-- [Flowbite Icons](https://flowbite.com/icons/)
+---
 
 ## Installation
 
