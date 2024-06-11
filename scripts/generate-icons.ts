@@ -12,7 +12,6 @@ mkdirSync(`${ICON_PATH}/icons`, { recursive: true })
 const icons = Object.keys(flowbite).map((icon) => {
   const iconName = icon.replace('Fl', 'Icon')
 
-
   return {
     name: iconName,
     path: `${ICON_PATH}/icons/${iconName}.tsx`,
@@ -22,10 +21,7 @@ import { component$, _jsxQ, _jsxS, type JSXNode } from '@builder.io/qwik'
 
 
 export const ${iconName} = component$<IconProps>((props) => {
-  const ic = ${flowbite[icon].toString()
-    .replace('(props) =>', '')
-    .replaceAll('/* @__PURE__ */', '')
-  }
+  const ic = ${flowbite[icon].toString().replace('(props) =>', '').replaceAll('/* @__PURE__ */', '')}
 
     ic.children = updateFillOfChildren(ic.children as JSXNode, 'currentColor')
     return <>{ic}</>

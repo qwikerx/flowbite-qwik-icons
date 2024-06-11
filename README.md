@@ -34,11 +34,11 @@ pnpm add flowbite-qwik-icons
 Icon size and color are inherited by default
 
 ```tsx
-import { IconVolumeUpSolid } from "flowbite-qwik-icons"
+import { IconVolumeUpSolid } from 'flowbite-qwik-icons'
 
 export const MyComponent = component$(() => {
   return (
-    <div style={{ color: "red", fontSize: "40px" }}>
+    <div style={{ color: 'red', fontSize: '40px' }}>
       <IconVolumeUpSolid />
     </div>
   )
@@ -48,13 +48,9 @@ export const MyComponent = component$(() => {
 Icon can be used as component props
 
 ```tsx
-import { IconVolumeUpSolid } from "flowbite-qwik-icons"
+import { IconVolumeUpSolid } from 'flowbite-qwik-icons'
 
 export const MyComponent = component$(() => {
-  return (
-    <Button prefix={IconVolumeUpSolid}>
-      Next
-    </Button>
-  )
+  return <Button prefix={IconVolumeUpSolid}>Next</Button>
 })
 ```
