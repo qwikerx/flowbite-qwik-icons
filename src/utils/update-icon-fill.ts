@@ -34,11 +34,11 @@ function getChild(children: JSXChildren, components: FoundComponent[]) {
  * Icons part
  */
 function processChild(child: JSXNode, fill: string) {
-  if (child.immutableProps?.fill && child.immutableProps.fill !== 'none') {
-    child.immutableProps.fill = fill
+  if (child.props.fill && child.props.fill !== 'none') {
+    child.props.fill = fill
   }
-  if (child.immutableProps?.stroke && child.immutableProps.stroke !== 'none') {
-    child.immutableProps.stroke = fill
+  if (child.props.stroke && child.props.stroke !== 'none') {
+    child.props.stroke = fill
   }
 }
 
